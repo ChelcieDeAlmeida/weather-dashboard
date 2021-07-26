@@ -11,6 +11,10 @@ body {
     padding: 15px;
 }
 
+.header{
+    background-color: lightskyblue;
+}
+
 .btn-group-vertical {
     margin: 20px 0;
 }
