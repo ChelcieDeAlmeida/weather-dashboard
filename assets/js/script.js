@@ -13,7 +13,6 @@ let dayCounter = [1,2,3,4,5,6]
 function reappendCity(event) {
     let targetBtn = event.target
     let pastCity = targetBtn.innerText
-    console.log(pastCity)
     fetch("https://api.openweathermap.org/geo/1.0/direct?appid=40491e6057ab901eb30d4f74c5bf1b85&q=" + pastCity)
             .then(response => response.json())
             .then( data => {
